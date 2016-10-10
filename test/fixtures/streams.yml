@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  url: MyString
+  title: MyString
+  preview: MyString
+  viewers: 1
+  game_id: 
+
+two:
+  name: MyString
+  url: MyString
+  title: MyString
+  preview: MyString
+  viewers: 1
+  game_id: 

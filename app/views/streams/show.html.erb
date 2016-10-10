@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @stream.name %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @stream.url %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @stream.title %>
+</p>
+
+<p>
+  <strong>Preview:</strong>
+  <%= @stream.preview %>
+</p>
+
+<p>
+  <strong>Viewers:</strong>
+  <%= @stream.viewers %>
+</p>
+
+<p>
+  <strong>Game:</strong>
+  <%= @stream.game %>
+</p>
+
+<%= link_to 'Edit', edit_stream_path(@stream) %> |
+<%= link_to 'Back', streams_path %>
